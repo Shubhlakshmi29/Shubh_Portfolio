@@ -1,0 +1,129 @@
+@import url('https://www.w3schools.com/cssref/tryit.php?filename=trycss_font_georgia');
+@import url(https://fonts.google.com/specimen/Playfair);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    /*background-color: blueviolet;*/
+    background-color: rgb(209, 192, 192);
+    width: 430px;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    border radius: 0px;
+    /*background-color: aqua;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+
+.sidebar nav{
+    padding: 35px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+}
+
+.infoContainer{
+    /*background-color: rgb(255, 0, 208); */
+    height: 55vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    font-family: 'playfair';
+}
+
+.hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+    font-size: 25px;
+}
+
+.moreabout{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: 'playfair';
+}
+
+.buttons button{
+    margin: 0 25px;
+    padding: 10px;
+    border-radius: 25px;
+    color: rgb(243, 245, 251);
+    background-color: rgb(61, 128, 128);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: rgb(243, 245, 251);
+    color: rgb(61, 128, 128);
+}
+
+.devPic img{
+    height: 55vh;
+}
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'playfair';
+}
+
+.contactform h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.contactform form div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 8px;
+    color: blue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px;
+}
